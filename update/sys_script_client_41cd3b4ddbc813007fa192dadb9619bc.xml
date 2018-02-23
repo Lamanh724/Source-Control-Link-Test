@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_class_name</field>
+        <global>true</global>
+        <messages/>
+        <name>Test Client Script for Scoped App</name>
+        <order/>
+        <script><![CDATA[function onLoad() {   
+   alert("Test is a testsssss");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>lamanh.nguyen@snc</sys_created_by>
+        <sys_created_on>2018-02-01 19:30:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41cd3b4ddbc813007fa192dadb9619bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test Client Script for Scoped App</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="The Newest and Greatest App Ever" source="x_snc_the_newest_a">47693b89dbc813007fa192dadb961995</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="The Newest and Greatest App Ever">47693b89dbc813007fa192dadb961995</sys_scope>
+        <sys_update_name>sys_script_client_41cd3b4ddbc813007fa192dadb9619bc</sys_update_name>
+        <sys_updated_by>lamanh.nguyen@snc</sys_updated_by>
+        <sys_updated_on>2018-02-01 19:38:31</sys_updated_on>
+        <table>x_snc_the_newest_a_the_newest_and_greatest_app_ever_table</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

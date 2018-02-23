@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>lamanh.nguyen@snc</sys_created_by>
+        <sys_created_on>2018-02-01 19:08:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f69bb89dbc813007fa192dadb961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_the_newest_a_the_newest_and_greatest_app_ever_table.x_snc_the_newest_a.user</sys_name>
+        <sys_package display_value="The Newest and Greatest App Ever" source="x_snc_the_newest_a">47693b89dbc813007fa192dadb961995</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="The Newest and Greatest App Ever">47693b89dbc813007fa192dadb961995</sys_scope>
+        <sys_security_acl display_value="x_snc_the_newest_a_the_newest_and_greatest_app_ever_table">d769bb89dbc813007fa192dadb961935</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1f69bb89dbc813007fa192dadb961937</sys_update_name>
+        <sys_updated_by>lamanh.nguyen@snc</sys_updated_by>
+        <sys_updated_on>2018-02-01 19:08:41</sys_updated_on>
+        <sys_user_role display_value="x_snc_the_newest_a.user" name="x_snc_the_newest_a.user">0f69bb89dbc813007fa192dadb96191f</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
