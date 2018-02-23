@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_snc_the_newest_a_the_newest_and_greatest_app_ever_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="field_not_on_master" table="x_snc_the_newest_a_the_newest_and_greatest_app_ever_table">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Class</column_label>
+        <column_label>field not on master</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:current.getTableName();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -23,12 +28,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>sys_class_name</element>
+        <element>field_not_on_master</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="">sys_class_name</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>80</max_length>
+        <max_length>40</max_length>
         <name>x_snc_the_newest_a_the_newest_and_greatest_app_ever_table</name>
         <next_element/>
         <primary>false</primary>
@@ -46,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>lamanh.nguyen@snc</sys_created_by>
-        <sys_created_on>2018-02-01 19:08:42</sys_created_on>
+        <sys_created_on>2018-02-23 15:59:52</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1150ec18dba85f00e81b9cb8db9619c0</sys_id>
+        <sys_id>6bf0a458dba85f00e81b9cb8db9619e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>field not on master</sys_name>
         <sys_package display_value="The Newest and Greatest App Ever" source="x_snc_the_newest_a">47693b89dbc813007fa192dadb961995</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="The Newest and Greatest App Ever">47693b89dbc813007fa192dadb961995</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-23 15:56:08</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_snc_the_newest_a_the_newest_and_greatest_app_ever_table_field_not_on_master</sys_update_name>
+        <sys_updated_by>lamanh.nguyen@snc</sys_updated_by>
+        <sys_updated_on>2018-02-23 15:59:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

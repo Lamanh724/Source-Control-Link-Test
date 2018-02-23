@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="field_not_on_master" label="field not on master" language="en" table="x_snc_the_newest_a_the_newest_and_greatest_app_ever_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>field_not_on_master</element>
+            <help/>
+            <hint/>
+            <label>field not on master</label>
+            <language>en</language>
+            <name>x_snc_the_newest_a_the_newest_and_greatest_app_ever_table</name>
+            <plural>field not on masters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>lamanh.nguyen@snc</sys_created_by>
+            <sys_created_on>2018-02-23 15:59:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>80316498dba85f00e81b9cb8db961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>field not on master</sys_name>
+            <sys_package display_value="The Newest and Greatest App Ever" source="x_snc_the_newest_a">47693b89dbc813007fa192dadb961995</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="The Newest and Greatest App Ever">47693b89dbc813007fa192dadb961995</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_the_newest_a_the_newest_and_greatest_app_ever_table_field_not_on_master_en</sys_update_name>
+            <sys_updated_by>lamanh.nguyen@snc</sys_updated_by>
+            <sys_updated_on>2018-02-23 15:59:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

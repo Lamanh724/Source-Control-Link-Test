@@ -2,6 +2,7 @@
 <database>
     <element label="The Newest and Greatest App Ever Table" max_length="40" name="x_snc_the_newest_a_the_newest_and_greatest_app_ever_table" type="collection">
         <element label="Counter" max_length="40" name="counter" type="string"/>
+        <element label="field not on master" max_length="40" name="field_not_on_master" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="See" max_length="40" name="see" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
